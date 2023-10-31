@@ -1,0 +1,7 @@
+name = input("enter your name? ")
+family = input("enter your family? ")
+mid_score = int(input("enter your mid_score? "))
+final_score = int(input("enter your final_score? "))
+sum_score = mid_score+final_score
+avg_score = sum_score/2
+print("mr/mrs" , name , family , "your average score is: " , avg_score)
